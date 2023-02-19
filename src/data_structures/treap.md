@@ -78,7 +78,7 @@ Thus, the split algorithm is:
 ### Insert
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Treap_insert.svg" width="500px"/>
+<img src="Treap_insert.svg" width="500px"/>
 </center>
 
 Now implementation of **Insert ($X$, $Y$)** becomes obvious. First we descend in the tree (as in a regular binary search tree by X), and stop at the first node in which the priority value is less than $Y$. We have found the place where we will insert the new element. Next, we call **Split (T, X)** on the subtree starting at the found node, and use returned subtrees $L$ and $R$ as left and right children of the new node.
@@ -89,7 +89,7 @@ Alternatively, insert can be done by splitting the initial treap on $X$ and doin
 ### Erase
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Treap_erase.svg" width="500px"/>
+<img src="Treap_erase.svg" width="500px"/>
 </center>
 
 Implementation of **Erase ($X$)** is also clear. First we descend in the tree (as in a regular binary search tree by $X$), looking for the element we want to delete. Once the node is found, we call **Merge** on it children and put the return value of the operation in the place of the element we're deleting.
