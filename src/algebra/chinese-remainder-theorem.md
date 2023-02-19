@@ -86,7 +86,7 @@ Notice, that the Chinese Remainder Theorem also guarantees, that only 1 solution
 This is also easy to prove.
 
 Lets assume that you have two different solutions $x$ and $y$.
-Because $x \equiv a_i \pmod{m_i}$ and $y \equiv a_i \pmod{m_i}$, it follows that $x − y \equiv 0 \pmod{m_i}$ and therefore $x − y \equiv 0 \pmod{m_1 m_2}$ or equivalently $x \equiv y \pmod{m_1 m_2}$.
+Because $x \equiv a_i \pmod{m_i}$ and $y \equiv a_i \pmod{m_i}$, it follows that $x - y \equiv 0 \pmod{m_i}$ and therefore $x - y \equiv 0 \pmod{m_1 m_2}$ or equivalently $x \equiv y \pmod{m_1 m_2}$.
 So $x$ and $y$ are actually the same solution.
 
 ## Solution for General Case
