@@ -25,7 +25,7 @@ Typical example of such field is the field of remainders modulo prime number $p$
 For simplicity we will drop the term _univariate_, as this is the only kind of polynomials we consider in this article. We will also write $A$ instead of $A(x)$ wherever possible, which will be understandable from the context. It is assumed that either $a_n \neq 0$ or $A(x)=0$.
 
 !!! info "Definition"
-	The **product** of two polynomials is defined by expanding it as an arythmetic expression:
+	The **product** of two polynomials is defined by expanding it as an arithmetic expression:
 
 	$$
 	A(x) B(x) = \left(\sum\limits_{i=0}^n a_i x^i \right)\left(\sum\limits_{j=0}^m b_j x^j\right) = \sum\limits_{i,j} a_i b_j x^{i+j} = \sum\limits_{k=0}^{n+m} c_k x^k = C(x).
@@ -74,7 +74,7 @@ The coefficient near $x^k$ in the polynomial $A(x)$ is denoted shortly as $[x^k]
 In other words, when we consider e.g. a sum $1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\dots=2$, we imply that it _converges_ to $2$ when the number of summands approach infinity. However, formal series are only considered in terms of sequences that make them.
 
 !!! info "Definition"
-	The **product** of formal power series $A(x)$ and $B(x)$, is also defined by expanding it as an arythmetic expression:
+	The **product** of formal power series $A(x)$ and $B(x)$, is also defined by expanding it as an arithmetic expression:
 
 
 	$$
