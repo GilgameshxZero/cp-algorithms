@@ -46,15 +46,19 @@ Binomial coefficients have many different properties. Here are the simplest of t
 
     \[ \sum_{k = 0}^n \binom n k = 2 ^ n \]
 
-*   Sum over $n$:
+*   Sum over $n$ (hockey stick identity):
 
     \[ \sum_{m = 0}^n \binom m k = \binom {n + 1} {k + 1} \]
 
 *   Sum over $n$ and $k$:
 
     \[ \sum_{k = 0}^m  \binom {n + k} k = \binom {n + m + 1} m \]
+    
+*   Vandermonde's identity:
 
-*   Sum of the squares:
+    \[ \sum_{r = 0}^k \binom n r \binom m {k - r} = \binom {n + m} k \]
+
+*   Sum of the squares (specific case of Vandermonde's identity):
 
     \[ {\binom n 0}^2 + {\binom n 1}^2 + \cdots + {\binom n n}^2 = \binom {2n} n \]
 
