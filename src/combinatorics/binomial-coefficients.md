@@ -34,15 +34,15 @@ Note that for $n \lt k$ the value of $\binom n k$ is assumed to be zero.
 
 Binomial coefficients have many different properties. Here are the simplest of them:
 
-*   Symmetry rule:
+*   Symmetry rule (evident from the analytic formula):
 
     \[ \binom n k = \binom n {n-k} \]
 
-*   Factoring in:
+*   Factoring in (evident with the analytic formula):
 
     \[ \binom n k = \frac n k \binom {n-1} {k-1} \]
 
-*   Sum over $k$:
+*   Sum over $k$ (derived from the binomial coefficient interpretation with $a = b = 1$):
 
     \[ \sum_{k = 0}^n \binom n k = 2 ^ n \]
 
@@ -50,7 +50,7 @@ Binomial coefficients have many different properties. Here are the simplest of t
 
     \[ \sum_{m = 0}^n \binom m k = \binom {n + 1} {k + 1} \]
 
-*   Sum over $n$ and $k$ (specialization of hockey stick identity and symmetry rule):
+*   Sum over $n$ and $k$ (derived from hockey stick identity and symmetry rule):
 
     \[ \sum_{k = 0}^m  \binom {n + k} k = \binom {n + m + 1} m \]
     
@@ -58,15 +58,15 @@ Binomial coefficients have many different properties. Here are the simplest of t
 
     \[ \sum_{r = 0}^k \binom n r \binom m {k - r} = \binom {n + m} k \]
 
-*   Sum of the squares (specialization of Vandermonde's identity with $n = m = k$ and symmetry rule):
+*   Sum of the squares (derived from Vandermonde's identity with $n = m = k$ and symmetry rule):
 
     \[ {\binom n 0}^2 + {\binom n 1}^2 + \cdots + {\binom n n}^2 = \binom {2n} n \]
 
-*   Weighted sum:
+*   Weighted sum (derived with factoring in):
 
     \[ 1 \binom n 1 + 2 \binom n 2 + \cdots + n \binom n n = n 2^{n-1} \]
 
-*   Connection with the [Fibonacci numbers](../algebra/fibonacci-numbers.md):
+*   Connection with the [Fibonacci numbers](../algebra/fibonacci-numbers.md) (derived from the recurrence formulas for binomial coefficients and Fibonacci numbers):
 
     \[ \binom n 0 + \binom {n-1} 1 + \cdots + \binom {n-k} k + \cdots + \binom 0 n = F_{n+1} \]
 
