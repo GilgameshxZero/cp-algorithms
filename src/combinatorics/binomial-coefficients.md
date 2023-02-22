@@ -50,7 +50,7 @@ Binomial coefficients have many different properties. Here are the simplest of t
 
     \[ \sum_{m = 0}^n \binom m k = \binom {n + 1} {k + 1} \]
 
-*   Sum over $n$ and $k$:
+*   Sum over $n$ and $k$ (specialization of hockey stick identity and symmetry rule):
 
     \[ \sum_{k = 0}^m  \binom {n + k} k = \binom {n + m + 1} m \]
     
@@ -58,7 +58,7 @@ Binomial coefficients have many different properties. Here are the simplest of t
 
     \[ \sum_{r = 0}^k \binom n r \binom m {k - r} = \binom {n + m} k \]
 
-*   Sum of the squares (specific case of Vandermonde's identity):
+*   Sum of the squares (specialization of Vandermonde's identity with $n = m = k$ and symmetry rule):
 
     \[ {\binom n 0}^2 + {\binom n 1}^2 + \cdots + {\binom n n}^2 = \binom {2n} n \]
 
